@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schizofit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Schizofit Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#merch">Merch</a></li>
+        <li><a href="#meal-plans">Meal Plans</a></li>
+        <li><a href="#detox-tea-recipes">Detox Tea Recipes</a></li>
+        <li><a href="#smoothie-recipes">Smoothie Recipes</a></li>
+        <li><a href="#workout-plans">Workout Plans</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Welcome to Schizofit</h1>
+    <p>Get fit, stay healthy!</p>
+  </section>
+
+  <section id="merch">
+    <h2>Merch</h2>
+    <!-- Add merch content here -->
+  </section>
+
+  <section id="meal-plans">
+    <h2>Meal Plans</h2>
+    <!-- Add meal plans content here -->
+  </section>
+
+  <section id="detox-tea-recipes">
+    <h2>Detox Tea Recipes</h2>
+    <!-- Add detox tea recipes content here -->
+  </section>
+
+  <section id="smoothie-recipes">
+    <h2>Smoothie Recipes</h2>
+    <!-- Add smoothie recipes content here -->
+  </section>
+
+  <section id="workout-plans">
+    <h2>Workout Plans</h2>
+    <!-- Add workout plans content here -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Schizofit. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 20px;
+}
